@@ -2,7 +2,6 @@
 
 A simple Student Management Database project built using MySQL Workbench to manage student records, registrations, and marks using relational database concepts.
 
----
 
 ## 🚀 Features
 
@@ -14,7 +13,6 @@ A simple Student Management Database project built using MySQL Workbench to mana
 ✅ Real-world SQL queries  
 ✅ Structured relational database design  
 
----
 
 ## 🛠 Tech Stack
 
@@ -23,7 +21,7 @@ A simple Student Management Database project built using MySQL Workbench to mana
 - DBMS Concepts
 - MySQL Workbench
 
----
+
 
 ## 📂 Database Structure
 
@@ -42,7 +40,7 @@ A simple Student Management Database project built using MySQL Workbench to mana
 | marks | INT |
 | name | VARCHAR |
 
----
+
 
 ## 💻 SQL Concepts Practiced
 
@@ -55,7 +53,6 @@ A simple Student Management Database project built using MySQL Workbench to mana
 - REGEXP filtering
 - Foreign Key constraints
 
----
 
 ## 📸 Sample Operations
 
@@ -64,7 +61,7 @@ A simple Student Management Database project built using MySQL Workbench to mana
 - Filter names using patterns
 - Retrieve specific records using regex
 
----
+
 
 ## 📌 Learning Outcomes
 
@@ -75,7 +72,7 @@ This project helped me:
 ✔ Improve DBMS fundamentals  
 ✔ Handle structured data efficiently  
 
----
+
 
 ## 🔗 Future Improvements
 
@@ -84,7 +81,6 @@ This project helped me:
 - Build web interface using HTML/CSS/JS
 - Convert into Full Stack Application
 
----
 
 ## 👩‍💻 Author
 
@@ -94,6 +90,6 @@ Aspiring Full Stack Developer
 
 LinkedIn: https://www.linkedin.com/in/akalya-akalya-1571aa27b/
 
----
+
 
 ⭐ If you like this project, give it a star!
