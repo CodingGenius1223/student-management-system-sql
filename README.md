@@ -92,8 +92,7 @@ Akalya N
 B.Tech Information Technology  
 Aspiring Full Stack Developer  
 
-GitHub: https://github.com/yourusername  
-LinkedIn: https://linkedin.com/in/yourprofile
+LinkedIn: https://www.linkedin.com/in/akalya-akalya-1571aa27b/
 
 ---
 
