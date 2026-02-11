@@ -1,0 +1,68 @@
+use mark;
+CREATE TABLE students (
+    student_id INT PRIMARY KEY,
+    name VARCHAR(50)
+);
+INSERT INTO students (student_id, name) VALUES
+(1, 'Akalya'),
+(2, 'Akahaya'),
+(3, 'Suba'),
+(4, 'Dharshana'),
+(5, 'Madhu'),
+(6, 'Gowsi'),
+(7, 'Krithi'),
+(8, 'Maha');
+CREATE TABLE register (
+    student_id INT,
+    reg_number VARCHAR(10),
+    year INT,
+    marks INT,
+    name VARCHAR(50),
+    FOREIGN KEY (student_id) REFERENCES students(student_id)
+);
+INSERT INTO register (student_id, reg_number, year, marks, name) VALUES
+(1, '101', 2023, 85, 'Akalya'),
+(2, '102', 2023, 90, 'Akashaya'),
+(4, '103', 2023, 88, 'Dharshana'),
+(5, '104', 2023, 75, 'Madhu'),
+(6, '105', 2023, 80, 'Gowsi'),
+(7, '106', 2023, 92, 'Krithi'),
+(8, '107', 2023, 78, 'Maha');
+SELECT 
+    s.student_id,
+    s.name AS student_name,
+    r.reg_number,
+    r.year,
+    r.marks,
+    r.name AS register_name
+FROM 
+    students s
+LEFT JOIN 
+    register r ON s.student_id = r.student_id;
+    SELECT 
+    s.student_id,
+    s.name AS student_name,
+    r.reg_number,
+    r.year,
+    r.marks,
+    r.name AS register_name
+FROM 
+    students s
+RIGHT JOIN 
+    register r ON s.student_id = r.student_id;
+SELECT * FROM students
+WHERE name LIKE 'a%_a%';
+SELECT * FROM students s
+WHERE name REGEXP 'a$';
+SELECT * FROM students s
+WHERE name REGEXP '^.{5}$';
+SELECT * FROM students s
+WHERE name REGEXP '^A';
+SELECT * FROM students s
+WHERE name REGEXP 'a$';
+SELECT * FROM students s
+WHERE student_id REGEXP '[0-6]';
+SELECT * FROM students s
+WHERE name REGEXP '[^A]';
+SELECT * FROM students s
+WHERE name REGEXP '^[A-ZA-Z]+$';
